@@ -61,6 +61,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Matheus Emídio](https://www.instagram.com/matheusemidio1)
+- Instagram - [@matheusemidio1](https://www.instagram.com/matheusemidio1)
 - Frontend Mentor - [@emidiomatheus](https://www.frontendmentor.io/profile/emidiomatheus)
 
