@@ -11,12 +11,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -50,24 +45,22 @@ Users should be able to:
 
 
 ### What I learned
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+ inputs.forEach( input => {
+        if( input.value == "" ) {
+            e.preventDefault()
+            input.classList.add('error')
+
+            messages.forEach( message => {
+                message.classList.add('active')
+            })
+        }
+    })
 }
 ```
 
 ## Author
 
 - Website - [Matheus Emídio](https://www.instagram.com/matheusemidio1)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@emidiomatheus](https://www.frontendmentor.io/profile/emidiomatheus)
 
